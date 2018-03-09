@@ -56,6 +56,15 @@ while True:
 		#判断是否找到了
 		if(find_flag == 0):
 			print("查无此人......")
+		'''也可以这么写，与使用find_flag效果一样
+		
+		for temp in cards_info:
+			if temp["name"] == find_name:
+				print("%s\t%s\t%s\t%s" %(temp["name"],temp["qq"],temp["weixin"],temp["address"]))
+				break
+		else：
+			print("查无此人......")
+		'''
 
 	elif num == 5:
 		print("姓名\tqq\t微信\t住址")

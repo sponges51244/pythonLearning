@@ -88,5 +88,25 @@ for temp in name:
 	print('-'*5)
 	print(temp)
 
+print('-'*5)
+
+#遍历
+nums = [11,12,44,55,66]
+
+i = 0
+while i < len(nums):
+	print(nums[i])
+	i += 1
+
+print('-'*5)
+
+for num in nums:
+	print(num)
+#for循环执行完后，执行这个.else里的东西一定会执行，即使nums为空
+#但如果在for中用到了break,else就不执行了
+else:
+	print("=======")
+
+
 
 
